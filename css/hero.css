@@ -18,6 +18,7 @@
   .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
+    background-size: cover;
   }
   .hero h2 {
     padding: 88px 60px;
