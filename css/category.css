@@ -62,7 +62,6 @@
 @media screen and (min-width: 1920px) {
   .category-cards {
     flex-wrap: nowrap;
-    width: 1250px;
     margin: 0 auto;
   }
 }
