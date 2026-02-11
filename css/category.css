@@ -53,6 +53,12 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .category-cards .card {
+    width: 588px;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .category-cards {
     flex-wrap: nowrap;
