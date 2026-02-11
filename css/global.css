@@ -46,7 +46,6 @@ body {
   font-weight: var(--title-weight);
   margin: 0 auto;
   text-align: center;
-  width: 312px;
 }
 
 .section-title hr {
