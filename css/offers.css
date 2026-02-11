@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-bottom: 88px;
 }
 .offers .section-title {
   width: 312px;
@@ -77,6 +76,10 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .offers .section-title {
+    margin-bottom: 64px;
+  }
+
   .offers-cards .card {
     width: 420px;
     height: 308px;
@@ -88,16 +91,5 @@
 
   .offers-cards .card header span {
     font-size: 40px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .offers-cards .card {
-    width: 588px;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .offers-cards {
-    width: 1250px;
-    margin: 0 auto 88px;
   }
 }
