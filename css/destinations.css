@@ -1,0 +1,86 @@
+.destinations .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.destinations-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinations-cards .card {
+  margin-bottom: 24px;
+  width: 312px;
+}
+
+.destinations-cards .card h3 {
+  margin: 24px 0px;
+}
+
+.destinations-cards .card p {
+  line-height: 32px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin: 24px 0px;
+}
+
+.destinations-cards .card a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.destinations-cards .card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.destinations-cards .card .button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations .section-title {
+    width: 100%;
+  }
+  .destinations-cards .card {
+    width: 648px;
+  }
+
+  .destinations-cards .card img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destinations .section-title {
+    margin-bottom: 64px;
+  }
+
+  .destinations-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .destinations-cards .card {
+    width: 420px;
+  }
+
+  .destinations-cards .card p {
+    min-height: 200px;
+  }
+
+  .destinations-cards .card .button {
+    width: 288px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations-cards .card {
+    width: 588px;
+  }
+}

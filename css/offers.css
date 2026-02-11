@@ -77,6 +77,10 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .offers .section-title {
+    margin-bottom: 64px;
+  }
+
   .offers-cards .card {
     width: 420px;
     height: 308px;

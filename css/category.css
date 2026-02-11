@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 
 .category-cards .card {
@@ -53,6 +54,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .category .section-title {
+    margin-bottom: 64px;
+  }
+
   .category-cards .card {
     width: 420px;
   }
