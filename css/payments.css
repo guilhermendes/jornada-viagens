@@ -3,7 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   height: 460px;
-  margin-top: 24px;
+
   width: 100%;
 }
 .image:last-child {
@@ -26,6 +26,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .payments .content-container .image-gallery {
+    margin-top: 24px;
+  }
+
   .payments .content-container .image-gallery .first {
     background-image: url(../img/payment-bag-tablet.png);
   }
@@ -44,7 +48,6 @@
     display: flex;
     justify-content: space-between;
   }
-  
 }
 
 @media screen and (min-width: 1440px) {
