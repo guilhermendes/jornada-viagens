@@ -54,10 +54,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .destinations .section-title {
-    margin-bottom: 64px;
-  }
-
   .destinations-cards {
     display: flex;
     flex-direction: row;
