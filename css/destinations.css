@@ -14,14 +14,7 @@
   margin-bottom: 24px;
 }
 
-.destinations-cards .card h3 {
-  margin: 24px 0px;
-}
-
 .destinations-cards .card p {
-  line-height: 32px;
-  font-size: 20px;
-  font-weight: var(--text-weight);
   margin: 24px 0px;
 }
 
