@@ -1,4 +1,4 @@
-header {
+.offers .offers-cards header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -77,7 +77,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .offers .offers-cards header {
     padding: 38px 120px;
   }
 
@@ -100,7 +100,7 @@ nav {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  .offers .offers-cards header {
     padding: 38px 160px;
   }
 }
